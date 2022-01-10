@@ -65,14 +65,14 @@
             "type": "link_list",
             "settings": {
               "heading": "About us",
-              "menu": "footer"
+              "menu": "footer-about"
             }
           },
           "00cbe0d5-f769-4f36-abbf-c583c9a27587": {
             "type": "link_list",
             "settings": {
               "heading": "FAQs",
-              "menu": "footer"
+              "menu": "footer-faq"
             }
           },
           "footer-1": {

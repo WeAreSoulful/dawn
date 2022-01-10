@@ -52,7 +52,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/luno-logo-white.png",
               "image_width": 100,
-              "alignment": "center"
+              "alignment": ""
             }
           },
           "footer-0": {

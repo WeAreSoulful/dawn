@@ -64,14 +64,14 @@
           "fa97b80f-c7c4-4bd1-b82c-05032dbdc431": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "About us",
               "menu": "footer"
             }
           },
           "00cbe0d5-f769-4f36-abbf-c583c9a27587": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "FAQs",
               "menu": "footer"
             }
           },

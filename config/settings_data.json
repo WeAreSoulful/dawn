@@ -55,7 +55,28 @@
               "alignment": ""
             }
           },
+          "9d153f40-71ec-4eb2-9d74-4630f1b5078e": {
+            "type": "text",
+            "settings": {
+              "heading": "",
+              "subtext": "<p><a href=\"mailto:luno@gmail.com\" title=\"mailto:luno@gmail.com\">luno@gmail.com<\/a><\/p><p><a href=\"tel:+3367704071\" title=\"067704071\">067704071<\/a><\/p><p>Paris, France<\/p>"
+            }
+          },
           "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "fa97b80f-c7c4-4bd1-b82c-05032dbdc431": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "00cbe0d5-f769-4f36-abbf-c583c9a27587": {
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
@@ -65,20 +86,23 @@
           "footer-1": {
             "type": "text",
             "settings": {
-              "heading": "Heading",
-              "subtext": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
+              "heading": "Stay tuned!",
+              "subtext": "<p>Be the first to find out about new products ﻿and exclusive offers<\/p>"
             }
           }
         },
         "block_order": [
           "9c3bcd76-9a6f-4d61-b8c9-88e468bcffea",
+          "9d153f40-71ec-4eb2-9d74-4630f1b5078e",
           "footer-0",
+          "fa97b80f-c7c4-4bd1-b82c-05032dbdc431",
+          "00cbe0d5-f769-4f36-abbf-c583c9a27587",
           "footer-1"
         ],
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Stay tuned!",
+          "newsletter_heading": "",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,

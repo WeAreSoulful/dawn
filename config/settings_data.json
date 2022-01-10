@@ -47,14 +47,6 @@
       "footer": {
         "type": "footer",
         "blocks": {
-          "9c3bcd76-9a6f-4d61-b8c9-88e468bcffea": {
-            "type": "image",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/luno-logo-white.png",
-              "image_width": 100,
-              "alignment": ""
-            }
-          },
           "9d153f40-71ec-4eb2-9d74-4630f1b5078e": {
             "type": "text",
             "settings": {
@@ -92,7 +84,6 @@
           }
         },
         "block_order": [
-          "9c3bcd76-9a6f-4d61-b8c9-88e468bcffea",
           "9d153f40-71ec-4eb2-9d74-4630f1b5078e",
           "footer-0",
           "fa97b80f-c7c4-4bd1-b82c-05032dbdc431",

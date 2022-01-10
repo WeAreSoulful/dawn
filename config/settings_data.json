@@ -36,7 +36,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/luno-logo.png",
+          "logo": "shopify:\/\/shop_images\/luno-logo-100px.png",
           "logo_width": 100,
           "logo_position": "middle-left",
           "menu": "main-menu",

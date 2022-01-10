@@ -9,6 +9,10 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "assistant_n4",
     "type_body_font": "assistant_n4",
+    "social_twitter_link": "",
+    "social_facebook_link": "https:\/\/twitter.com\/gradiweb",
+    "social_pinterest_link": "https:\/\/twitter.com\/gradiweb",
+    "social_instagram_link": "https:\/\/twitter.com\/gradiweb",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -65,11 +69,11 @@
         "settings": {
           "color_scheme": "background-1",
           "newsletter_enable": true,
-          "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true
+          "newsletter_heading": "Stay tuned!",
+          "show_social": true,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
         }
       }
     },

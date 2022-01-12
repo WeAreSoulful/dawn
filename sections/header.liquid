@@ -325,28 +325,6 @@
       </details-modal>
     {%- endif -%}
 
-    {%- if request.page_type == 'index' -%}
-      <h1 class="header__heading">
-    {%- endif -%}
-        <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-          {%- if section.settings.logo != blank -%}
-            {%- assign image_size = section.settings.logo_width | append: 'x' -%}
-            <img srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
-              src="{{ section.settings.logo | img_url: image_size }}"
-              loading="lazy"
-              class="header__heading-logo"
-              width="{{ section.settings.logo.width }}"
-              height="{{ section.settings.logo.height }}"
-              alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
-            >
-          {%- else -%}
-            <span class="h2">{{ shop.name }}</span>
-          {%- endif -%}
-        </a>
-    {%- if request.page_type == 'index' -%}
-      </h1>
-    {%- endif -%}
-
     {%- if section.settings.menu != blank -%}
       <nav class="header__inline-menu">
         <ul class="list-menu list-menu--inline" role="list">
@@ -397,6 +375,28 @@
           {%- endfor -%}
         </ul>
       </nav>
+    {%- endif -%}
+
+    {%- if request.page_type == 'index' -%}
+      <h1 class="header__heading">
+    {%- endif -%}
+        <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+          {%- if section.settings.logo != blank -%}
+            {%- assign image_size = section.settings.logo_width | append: 'x' -%}
+            <img srcset="{{ section.settings.logo | img_url: image_size }} 1x, {{ section.settings.logo | img_url: image_size, scale: 2 }} 2x"
+              src="{{ section.settings.logo | img_url: image_size }}"
+              loading="lazy"
+              class="header__heading-logo"
+              width="{{ section.settings.logo.width }}"
+              height="{{ section.settings.logo.height }}"
+              alt="{{ section.settings.logo.alt | default: shop.name | escape }}"
+            >
+          {%- else -%}
+            <span class="h2">{{ shop.name }}</span>
+          {%- endif -%}
+        </a>
+    {%- if request.page_type == 'index' -%}
+      </h1>
     {%- endif -%}
 
     <div class="header__icons">
@@ -473,6 +473,10 @@
         </details>
       </details-modal>
 
+      <a href="#" class="header__icon header__icon--wishlist">
+        <svg xmlns="http://www.w3.org/2000/svg" width="57.867" height="49.73" viewBox="0 0 57.867 49.73" class="icon"><g transform="translate(-260.293 -264.969)"><path d="M289.038,314.7a1.194,1.194,0,0,1-.337-.049c-13.115-3.923-25.086-16.159-27.845-28.464-1.483-6.613-.011-12.31,4.143-16.041,7.8-7,14.919-5.388,18.472-3.8,3.78,1.686,6.741,4.806,6.741,7.1a1.174,1.174,0,0,1-2.349,0c0-.872-1.888-3.413-5.349-4.957-3.033-1.353-9.137-2.709-15.945,3.4-4.479,4.023-4.333,9.714-3.421,13.779,2.2,9.814,12.139,22.516,26.226,26.728a1.175,1.175,0,0,1-.336,2.3" fill="#161615"/><path d="M289.415,314.7a1.175,1.175,0,0,1-.336-2.3c14.087-4.212,24.026-16.914,26.227-26.727.911-4.066,1.058-9.757-3.422-13.78-6.808-6.114-12.913-4.757-15.945-3.4-3.461,1.544-5.349,4.085-5.349,4.957a1.174,1.174,0,0,1-2.349,0c0-2.3,2.961-5.416,6.741-7.1,3.552-1.586,10.676-3.2,18.472,3.8,4.154,3.731,5.626,9.428,4.144,16.041-2.759,12.3-14.73,24.541-27.846,28.464a1.194,1.194,0,0,1-.337.049" fill="#161615"/></g></svg>
+      </a>
+
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
           {% render 'icon-account' %}
@@ -506,6 +510,48 @@
           </div>
         {%- endif -%}
       </a>
+
+      <div class="language-selector">
+        <noscript>
+          {%- form 'localization', id: 'FooterLanguageFormNoScript', class: 'localization-form' -%}
+            <div class="localization-form__select">
+              <select class="localization-selector link" name="locale_code" aria-labelledby="FooterLanguageLabelNoScript">
+                {%- for language in localization.available_languages -%}
+                  <option value="{{ language.iso_code }}" lang="{{ language.iso_code }}" {%- if language.iso_code == localization.language.iso_code %} selected{% endif %}>
+                    {{ language.iso_code | capitalize }}
+                  </option>
+                {%- endfor -%}
+              </select>              
+            </div>
+            <button class="button button--tertiary">{{ 'localization.update_language' | t }}</button>
+          {%- endform -%}
+        </noscript>
+
+        <localization-form>
+          {%- form 'localization', id: 'FooterLanguageForm', class: 'localization-form' -%}
+            <div class="no-js-hidden">
+              <div class="disclosure">
+                <button type="button" class="disclosure__button localization-form__select localization-selector link link--text caption-large {{ localization.language.iso_code }}" aria-expanded="false" aria-controls="FooterLanguageList" aria-describedby="FooterLanguageLabel">
+                  {{ localization.language.iso_code | capitalize }}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="8" height="4" viewBox="0 0 8 4"><path d="M7.175.749a.5.5,0,1,1,.651.759l-3.5,3a.5.5,0,0,1-.651,0l-3.5-3A.5.5,0,0,1,.825.749L4,3.47Z" transform="translate(0 -0.629)" fill="#231f20"/></svg>
+                </button>
+                <ul id="LanguageList" role="list" class="disclosure__list list-unstyled" hidden>
+                  {%- for language in localization.available_languages -%}
+                    {%- if language.iso_code != localization.language.iso_code -%}
+                      <li class="disclosure__item" tabindex="-1">
+                        <a class="link link--text {{ language.iso_code }}" href="#" hreflang="{{ language.iso_code }}" lang="{{ language.iso_code }}"{% if language.iso_code == localization.language.iso_code %} aria-current="true"{% endif %} data-value="{{ language.iso_code }}">
+                          {{ language.iso_code | capitalize }}
+                        </a>
+                      </li>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </ul>
+              </div>
+              <input type="hidden" name="locale_code" value="{{ localization.language.iso_code }}">
+            </div>
+          {%- endform -%}
+        </localization-form>
+      </div>
     </div>
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>

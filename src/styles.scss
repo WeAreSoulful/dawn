@@ -1,6 +1,7 @@
-$primary-color: red;
-$bg: black;
-h1 {
-  color: $primary-color;
-  background-color: $bg;
-}
+@import './scss/responsive.scss';
+@import './scss/fonts.scss';
+@import './scss/main.scss';
+@import './scss/buttons.scss';
+@import './scss/header.scss';
+@import './scss/footer.scss';
+@import './scss/forms.scss';

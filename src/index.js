@@ -1,3 +1,1 @@
-import "./styles.css";
-import "./styles.scss";
-console.log("hello gradiweb!"); 
+import './styles.scss';

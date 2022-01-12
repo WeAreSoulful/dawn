@@ -1,0 +1,79 @@
+.announcement-bar {
+    border-bottom: 0.5px solid rgba(35, 31, 32, 0.3);
+    color: $dark;
+}
+
+.search {
+    &__input {
+        .field {
+            &__input {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.header {
+    &__heading-logo {
+        height: 50px;
+        width: auto;
+    }
+    &__heading, &__heading-link {
+        justify-self: center;
+        padding: 0;
+    }
+    &--middle-left {
+        grid-template-areas: 'navigation heading icons';
+        grid-template-columns: 2fr 1fr 2fr;
+    }
+    &__inline-menu {
+        li {
+            margin: 0 15px;
+        }
+    }
+    &__menu-item {
+        padding: 0;
+        font-weight: $font-weight-bold;
+        font-size: $font-body-size;
+        &:hover span {
+            text-decoration: none;
+        }
+    }
+    &__active-menu-item {
+        padding: 10px 0;
+        text-decoration: none;
+        border-bottom: 2px solid $dark;
+
+        &:hover {
+            color: $brown;
+            border-color: $brown;
+        }
+    }
+    &__icon {
+        width: 50px;
+        .icon {
+            height: 20px;
+            width: 20px;
+            transform: none;
+            transition: all .2s ease-out;
+        }
+        &:hover {
+            .icon {
+                transform: scale(1.2);
+                transition: all .2s ease-out;
+            }
+            svg {
+                path {
+                    fill: $brown;
+                }
+            }
+        }
+    }
+}
+
+.shopify-section-header-sticky {
+    .header {
+        background: $white;
+        border-bottom: 0.5px solid rgba(35, 31, 32, 0.3);
+    }
+}

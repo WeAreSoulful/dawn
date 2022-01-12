@@ -1,0 +1,46 @@
+.field__input, .select__select, .customer .field input, .customer select, .field__input:focus, .field__input:not(:placeholder-shown), .field__input:-webkit-autofill, .customer .field input:focus, .customer .field input:not(:placeholder-shown), .customer .field input:-webkit-autofill {
+    border: 1px solid $dark;
+    border-radius: 50px;
+    padding: 14px 24px;
+    margin-bottom: 30px;
+    background: $white;
+    height: auto;
+    font-size: $font-body-size;
+    color: $dark;
+}
+
+.field__input, .select__select, .customer .field input, .customer select, .field__input:hover, .select__select:hover, .customer .field input:hover, .customer select:hover, .localization-form__select:hover, .field__input:focus, .select__select:focus, .customer .field input:focus, .customer select:focus, .localization-form__select:focus {
+    box-shadow: none;
+}
+
+.field__label, .customer .field label, .field__input:focus ~ .field__label, .field__input:not(:placeholder-shown) ~ .field__label, .field__input:-webkit-autofill ~ .field__label, .customer .field input:focus ~ label, .customer .field input:not(:placeholder-shown) ~ label, .customer .field input:-webkit-autofill ~ label {
+    top: -25px;
+    left: 0;
+    font-size: $font-body-size;
+    letter-spacing: 0;
+}
+
+.text-area.field__input {
+    border-radius: 25px;
+}
+
+.contact-form {
+    .contact {
+        &__button {
+            margin-top: -25px;
+        }
+    }
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: $brown-light;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: $brown-light;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: $brown-light;
+}

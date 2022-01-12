@@ -1,3 +1,9 @@
+.field__input {
+    &:focus-visible {
+        outline: none;
+    }
+}
+
 .field__input, .select__select, .customer .field input, .customer select, .field__input:focus, .field__input:not(:placeholder-shown), .field__input:-webkit-autofill, .customer .field input:focus, .customer .field input:not(:placeholder-shown), .customer .field input:-webkit-autofill {
     border: 1px solid $dark;
     border-radius: 50px;
@@ -7,6 +13,8 @@
     height: auto;
     font-size: $font-body-size;
     color: $dark;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .field__input, .select__select, .customer .field input, .customer select, .field__input:hover, .select__select:hover, .customer .field input:hover, .customer select:hover, .localization-form__select:hover, .field__input:focus, .select__select:focus, .customer .field input:focus, .customer select:focus, .localization-form__select:focus {

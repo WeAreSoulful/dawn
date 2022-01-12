@@ -42,6 +42,9 @@
             display: inline-block;
             background: $brown-medium;
             border-radius: 100%;
+            &:hover {
+                background: $brown-light;
+            }
         }
         .icon {
             height: 18px;
@@ -72,6 +75,11 @@
             width: auto;
             padding: 0 40px;
             font-family: $font-family;
+            border: 0;
+            cursor: pointer;
+            position: absolute;
+            right: 0;
+            top: 0;
         }
         &__button:hover {
             background: $brown-light;

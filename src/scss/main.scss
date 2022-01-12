@@ -15,6 +15,7 @@ $yellow-dark: #423C34;
 $yellow-medium: #83745B;
 $yellow-light: #E8D5B1;
 $yellow-extra-light: #F3EAD8;
+$bg-overlay: rgba(255,255,255,.9);
 
 /* Typography */
 $font-family: "Comfortaa", sans-serif;
@@ -64,14 +65,16 @@ h3, .h3, .subtitle {
 a, .link, .customer a {
     color: $text-base-color;
     font-size: inherit;
-
+    text-decoration: none;
+    transition: all .2s ease-out;
     &:hover {
         color: $brown;
         text-decoration-thickness: initial;
+        transition: all .3s ease-out;
     }
 }
 
-/* Shopify Overrides */
+/* Dawn Cleanup */
 .shopify-section {
     overflow-x: hidden;
 }
@@ -80,8 +83,34 @@ a, .link, .customer a {
     letter-spacing: 0;
 }
 
+.list-unstyled {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 /* Helper Classes */
 .section-padding {
     padding-top: 55px;
     padding-bottom: 55px;
+}
+
+.relative {
+    position: relative;
+}
+
+.hidden {
+    display: none!important;
+}
+
+.visually-hidden {
+    position: absolute!important;
+    overflow: hidden;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    word-wrap: normal!important;
 }

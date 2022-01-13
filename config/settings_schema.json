@@ -1054,6 +1054,12 @@
         "info": "t:settings_schema.social-media.settings.social_pinterest_link.info"
       },
       {
+        "type": "image_picker",
+        "id": "social_pinterest_icon",
+        "label": "t:settings_schema.social-media.settings.social_pinterest_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_pinterest_icon.info"
+      },
+      {
         "type": "text",
         "id": "social_instagram_link",
         "label": "t:settings_schema.social-media.settings.social_instagram_link.label",

@@ -1963,9 +1963,12 @@
             "image": {
               "label": "Image"
             },
+            "title": {
+              "label": "Title"
+            },
             "text": {
               "label": "Description"
-            },
+            }
           }
         }
       },

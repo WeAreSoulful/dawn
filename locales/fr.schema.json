@@ -1839,9 +1839,12 @@
             "image": {
               "label": "Image"
             },
+            "title": {
+              "label": "Titre"
+            },
             "text": {
               "label": "Description"
-            },
+            }
           }
         }
       },

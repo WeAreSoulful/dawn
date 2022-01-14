@@ -6,6 +6,7 @@
         "image_slider-0": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/luno-banner-about-1.jpg",
             "heading": "",
             "heading_size": "small",
             "subheading": "À la naissance de mon bébé ma première envie fut de l’habiller avec la matière la plus douce possible, de l’enrouler dans un cocoon de douceur",

@@ -137,21 +137,21 @@
           "type": "closer_column",
           "settings": {
             "image": "shopify:\/\/shop_images\/luno-yarn-white.png",
-            "text": "<p>Exceptional yarn<\/p>"
+            "text": "<p>Exceptional<br\/>yarn<\/p>"
           }
         },
         "16421435125340b699-1": {
           "type": "closer_column",
           "settings": {
             "image": "shopify:\/\/shop_images\/luno-second-hand-white.png",
-            "text": "<p>Recycled and recyclable packaging<\/p>"
+            "text": "<p>Recycled and recyclable<br\/>packaging<\/p>"
           }
         },
         "16421435125340b699-2": {
           "type": "closer_column",
           "settings": {
             "image": "shopify:\/\/shop_images\/luno-cachemire-white.png",
-            "text": "<p>Standard Certified Good Cashmere<\/p>"
+            "text": "<p>Standard Certified<br\/>Good Cashmere<\/p>"
           }
         }
       },

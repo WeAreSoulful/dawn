@@ -73,13 +73,14 @@
         "164213612208747efd-2": {
           "type": "image_box",
           "settings": {
+            "image": "shopify:\/\/shop_images\/luno-about-2.jpg"
           }
         },
         "164213612208747efd-3": {
           "type": "text_box",
           "settings": {
-            "title": "Your box title goes here",
-            "text": "<p>Pair text with an image to focus on your history.<\/p>"
+            "title": "",
+            "text": "<p>En 2020, je suis devenue maman à mon tour. Ma première envie fut d’habiller mon bébé avec la matière la plus douce possible et retrouver l’émotion liée au pull de ma mère. J’ai regardé ce qui existait en cachemire pour bébé mais j’ai constaté que l’offre manquait. Les produits pro- posés ne se souciaient que peu de la qualité et de la durabilité<br\/>En 2021, après mon deuxième accouchement, je restais frustrée de ne pas dénicher ce dont je rêvais pour mes deux bébés, Nino et Luca. Alors je me suis lancée. J’ai dessiné des pièces essentielles pour bébés en cachemire. J’ai étudié le marché et fait le tour des fabricants pour comprendre les étapes et contraintes de confection.<\/p><p><strong>Quelques mois plus tard, Lunö était né.<\/strong><\/p>"
           }
         }
       },

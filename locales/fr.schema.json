@@ -1831,7 +1831,8 @@
     },
     "two_columns": {
       "name": "Deux Colonnes",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "column": {
           "name": "Colonne",

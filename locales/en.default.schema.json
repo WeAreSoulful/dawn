@@ -1955,7 +1955,8 @@
     },
     "two_columns": {
       "name": "Two Columns",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "column": {
           "name": "Column",

@@ -60,19 +60,16 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/luno-about-1.jpg",
+            "title": "L’histoire de Lunö",
+            "text": "<p>Dans mon enfance, ma mère avait un pull. Un pull très spécial. Il était en cachemire. Quand elle le portait et me serrait dans ses bras, il inscrivait au plus profond de moi l’immense tendresse de la douceur maternelle. Il rayonnait d’une chaleur humaine indissociable de l’amour que ma mère et moi nous portions l’une l’autre. Lorsqu’elle m’enroulait dedans, ce pull en cachemire, si rassurant, n’était plus un pull. C’était ma mère.<\/p><p><strong>Je suis Charlotte, fondatrice et créatrice de Lunö.<\/strong><\/p><p>Si j’ai toujours été attentive aux matières, aux coupes et aux petits détails qui font qu’un vêtement peut devenir tout à coup un objet unique et spécial, c’est parce que j’ai grandi dans l’univers de la création. Après des études d’arts graphiques à l’ESAG Penninghen, j’ai travaillé en tant qu’indépendante pendant quelques années. Mais il me manquait quelque chose. Un court passage à l’IFM confirma ce que je savais déjà : je serai créatrice de vêtement.<\/p>"
           }
         },
         "column2": {
           "type": "column",
           "settings": {
             "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
         }
       },
@@ -81,12 +78,11 @@
         "column2"
       ],
       "settings": {
-        "title": "Two Columns"
       }
     }
   },
   "order": [
     "image_slider",
-    "two_columns1" 
+    "two_columns1"
   ]
 }

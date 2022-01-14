@@ -20,7 +20,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "test",
+              "text": "Announcement bar test..",
               "color_scheme": "background-1",
               "link": ""
             }

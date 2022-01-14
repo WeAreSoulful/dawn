@@ -132,12 +132,8 @@
     }
   },
   "order": [
-    "image_slider"
-    "rich_text",
-    "featured_products",
-    "collage",
-    "video",
+    "image_slider",
     "multi_column",
-    "16418439067d276e68",
+    "multi_column2",
   ]
 }

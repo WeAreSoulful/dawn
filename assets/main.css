@@ -652,3 +652,16 @@ slideshow-component {
   .values-grid .grid-box.right_grid .box:nth-child(4) {
     background: #9E7A5F; }
 
+.page-closer {
+  background: #9E7A5F;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffffff;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  line-height: 16px; }
+  .page-closer img {
+    height: 55px;
+    width: auto; }
+

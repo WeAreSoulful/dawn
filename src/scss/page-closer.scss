@@ -1,0 +1,14 @@
+.page-closer {
+    background: $brown;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: $white;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    line-height: 16px;
+    img {
+        height: 55px;
+        width: auto;
+    }
+}

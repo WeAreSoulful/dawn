@@ -114,8 +114,10 @@
         "1642139446ed426cc3-2": {
           "type": "right_grid",
           "settings": {
-            "text_top": "<p>Pair text with an image to focus on your history.<\/p>",
-            "text_bottom": "<p>Pair text with an image to focus on your history.<\/p>"
+            "text_top": "<p><strong>Eco-responsible manufacturing<\/strong><\/p>",
+            "image_top": "shopify:\/\/shop_images\/luno-eco-white.png",
+            "image_bottom": "shopify:\/\/shop_images\/luno-second-hand-white.png",
+            "text_bottom": "<p><strong>A second-hand take-back system<\/strong><\/p>"
           }
         }
       },

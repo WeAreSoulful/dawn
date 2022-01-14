@@ -1834,7 +1834,7 @@
       "settings": {
       },
       "blocks": {
-        "image_column": {
+        "image_box": {
           "name": "Zone de Image",
           "settings": {
             "image": {
@@ -1842,7 +1842,7 @@
             }
           }
         },
-        "text_column": {
+        "text_box": {
           "name": "Zone de Texte",
           "settings": {
             "title": {

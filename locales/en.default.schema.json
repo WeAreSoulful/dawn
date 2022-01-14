@@ -1958,7 +1958,7 @@
       "settings": {
       },
       "blocks": {
-        "image_column": {
+        "image_box": {
           "name": "Image Box",
           "settings": {
             "image": {
@@ -1966,7 +1966,7 @@
             }
           }
         },
-        "text_column": {
+        "text_box": {
           "name": "text Box",
           "settings": {
             "title": {

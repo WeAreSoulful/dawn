@@ -1,0 +1,26 @@
+.twocolumns {
+    display: flex;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 45px;
+    .column {
+        position: relative;
+        overflow: hidden;
+        &:first-child {
+            flex: 58.33%;
+        }
+        &:last-child {
+            flex: 41.66%;
+            background: $grey-box;
+            border-radius: 10px;
+            padding: 0 25px;
+            p {
+                line-height: 24px;
+            }
+        }
+        .media img {
+            border-radius: 10px;
+            max-width: calc(100% - 25px);
+        }
+    }
+}

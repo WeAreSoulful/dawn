@@ -46,14 +46,49 @@
   "settings": [],
   "blocks": [
     {
-      "type": "column",
-      "name": "t:sections.two_columns.blocks.column.name",
+      "type": "image_column",
+      "name": "t:sections.two_columns.blocks.image_column.name",
       "settings": [
         {
           "type": "image_picker",
           "id": "image",
           "label": "t:sections.two_columns.blocks.column.settings.image.label"
+        }
+      ]
+    },
+    {
+      "type": "text_column",
+      "name": "t:sections.two_columns.blocks.text_column.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "default": "",
+          "label": "t:sections.two_columns.blocks.column.settings.title.label"
         },
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Pair text with an image to focus on your history.</p>",
+          "label": "t:sections.two_columns.blocks.column.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "image_column",
+      "name": "t:sections.two_columns.blocks.image_column.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.two_columns.blocks.column.settings.image.label"
+        }
+      ]
+    },
+    {
+      "type": "text_column",
+      "name": "t:sections.two_columns.blocks.text_column.name",
+      "settings": [
         {
           "type": "text",
           "id": "title",
@@ -74,7 +109,16 @@
       "name": "t:sections.two_columns.presets.name",
       "blocks": [
         {
-          "type": "column"
+          "type": "image_column"
+        },
+        {
+          "type": "text_column"
+        },
+        {
+          "type": "image_column"
+        },
+        {
+          "type": "text_column"
         }
       ]
     }

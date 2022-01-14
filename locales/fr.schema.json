@@ -1834,12 +1834,17 @@
       "settings": {
       },
       "blocks": {
-        "column": {
-          "name": "Colonne",
+        "image_column": {
+          "name": "Zone de Image",
           "settings": {
             "image": {
               "label": "Image"
-            },
+            }
+          }
+        },
+        "text_column": {
+          "name": "Zone de Texte",
+          "settings": {
             "title": {
               "label": "Titre"
             },

@@ -1958,12 +1958,17 @@
       "settings": {
       },
       "blocks": {
-        "column": {
-          "name": "Column",
+        "image_column": {
+          "name": "Image Box",
           "settings": {
             "image": {
               "label": "Image"
-            },
+            }
+          }
+        },
+        "text_column": {
+          "name": "text Box",
+          "settings": {
             "title": {
               "label": "Title"
             },

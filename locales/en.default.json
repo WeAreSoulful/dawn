@@ -16,6 +16,7 @@
         "share_on_twitter": "Tweet on Twitter",
         "share_on_pinterest": "Pin on Pinterest"
       },
+      "call_to_action": "Follow us",
       "links": {
         "twitter": "Twitter",
         "facebook": "Facebook",
@@ -252,7 +253,11 @@
       }
     },
     "footer": {
-      "payment": "Payment methods"
+      "payment": "Payment methods",
+      "legal": {
+        "copyright": "Copyright",
+        "rights_reserved": "All rights reserved"
+      }
     },
     "featured_blog": {
       "view_all": "View all",

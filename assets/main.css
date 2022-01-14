@@ -574,23 +574,29 @@ slideshow-component {
   background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1MC4zNiIgaGVpZ2h0PSI1MC40IiB2aWV3Qm94PSIwIDAgNTAuMzYgNTAuNCI+PHBhdGggZD0iTTUwLjI2LDIyLjk2MWEuMi4yLDAsMCwwLS4xNS0uMDZMMjYuNywyNC41NDFsMTcuNjktMTVhLjE2LjE2LDAsMCwwLC4wNy0uMTQuMTkuMTksMCwwLDAtLjA2LS4xNmwtMy4yOS0zLjE2YS4yOTIuMjkyLDAsMCwwLS4zLjA3TDI1LjkyLDIzLjI2MWwxLjQyLTIzYS4yMi4yMiwwLDAsMC0uMDYtLjE1LjIuMiwwLDAsMC0uMTQtLjA2SDIyLjg3YS4yLjIsMCwwLDAtLjE1LjA2LjE3LjE3LDAsMCwwLDAsLjE1bDEuMzgsMjIuNTlMOS4xLDUuN2EuMjEuMjEsMCwwLDAtLjE1LS4wNy4xOC4xOCwwLDAsMC0uMTUuMDdMNS41LDkuMzExYS4yNC4yNCwwLDAsMC0uMDUuMTQuMjEuMjEsMCwwLDAsLjA3LjE1bDE3LjY0LDE0Ljk0TC4yMiwyMy4wMTFhLjE3LjE3LDAsMCwwLS4xNS4wNS4yLjIsMCwwLDAtLjA2LjE1djQuNWEuMTguMTgsMCwwLDAsLjA2LjE0LjIyLjIyLDAsMCwwLC4xNS4wNmwyMy0xLjc0TDUuNjgsNDEuMjcxYS4xOS4xOSwwLDAsMC0uMDcuMTQuMi4yLDAsMCwwLC4wNi4xNWwzLjI0LDMuMTlhLjE4LjE4LDAsMCwwLC4xNS4wNi4yMS4yMSwwLDAsMCwuMTUtLjA3bDE0LjkzLTE3LjY2LTEuNDcsMjMuMTVhLjE3LjE3LDAsMCwwLDAsLjE1LjIxLjIxLDAsMCwwLC4xNS4wN2g0LjQ5YS4yMy4yMywwLDAsMCwuMTUtLjA3LjI1LjI1LDAsMCwwLC4wNS0uMTVsLTEuNTMtMjNMNDAuNTksNDQuM2EuMjEuMjEsMCwwLDAsLjE0LjA3LjI0OS4yNDksMCwwLDAsLjE1LDBsMy4zNS0zLjEyYS4xNy4xNywwLDAsMCwuMDYtLjE1LjE4LjE4LDAsMCwwLS4wNi0uMTRsLTE2Ljc4LTE1LDIyLjcsMS44M2EuMjA2LjIwNiwwLDAsMCwuMjItLjJ2LTQuNTFhLjIxLjIxLDAsMCwwLS4xMS0uMTJaIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMC4wMSAtMC4wNTEpIi8+PC9zdmc+) center no-repeat; }
 
 .twocolumns {
-  display: flex;
-  width: 100%;
+  display: grid;
   padding-top: 120px;
-  padding-bottom: 45px; }
+  padding-bottom: 120px;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1.7fr 1fr;
+  column-gap: 2.5%; }
   .twocolumns .column {
     position: relative;
-    overflow: hidden; }
-    .twocolumns .column:first-child {
-      flex: 58.33%; }
-    .twocolumns .column:last-child {
-      flex: 41.66%;
+    overflow: hidden;
+    border-radius: 10px; }
+    .twocolumns .column:nth-child(even) {
       background: #f2f2f2;
-      border-radius: 10px;
       padding: 0 25px; }
-      .twocolumns .column:last-child p {
+      .twocolumns .column:nth-child(even) p {
         line-height: 24px; }
-    .twocolumns .column .media img {
-      border-radius: 10px;
-      max-width: calc(100% - 25px); }
+    .twocolumns .column:nth-child(n+3) {
+      margin-top: 45px; }
+    .twocolumns .column:nth-child(3) {
+      order: 4;
+      width: 140%;
+      margin-left: -40%; }
+    .twocolumns .column:nth-child(4) {
+      width: 70%; }
+    .twocolumns .column .media > img {
+      object-position: top right; }
 

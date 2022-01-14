@@ -1982,6 +1982,32 @@
         "name": "Two Columns"
       }
     },
+    "values_grid": {
+      "name": "Values Grid",
+      "settings": {
+      },
+      "blocks": {
+        "image_box": {
+          "name": "Image Box",
+          "settings": {
+            "image": {
+              "label": "Image"
+            }
+          }
+        },
+        "text_box": {
+          "name": "Text Box",
+          "settings": {
+            "text": {
+              "label": "Description"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Values Grid"
+      }
+    },
     "newsletter": {
       "name": "Email signup",
       "settings": {

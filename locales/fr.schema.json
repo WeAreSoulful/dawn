@@ -1829,13 +1829,13 @@
         "name": "Multicolonne"
       }
     },
-    "two_columns": {
-      "name": "Deux Colonnes",
+    "values_grid": {
+      "name": "Grille de Valeurs",
       "settings": {
       },
       "blocks": {
         "image_box": {
-          "name": "Zone de Image",
+          "name": "Image",
           "settings": {
             "image": {
               "label": "Image"
@@ -1843,11 +1843,8 @@
           }
         },
         "text_box": {
-          "name": "Zone de Texte",
+          "name": "Text",
           "settings": {
-            "title": {
-              "label": "Titre"
-            },
             "text": {
               "label": "Description"
             }
@@ -1855,7 +1852,7 @@
         }
       },
       "presets": {
-        "name": "Deux Colonnes"
+        "name": "Values Grid"
       }
     },
     "newsletter": {

@@ -1967,7 +1967,7 @@
           }
         },
         "text_box": {
-          "name": "text Box",
+          "name": "Text Box",
           "settings": {
             "title": {
               "label": "Title"

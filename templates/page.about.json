@@ -92,10 +92,44 @@
       ],
       "settings": {
       }
+    },
+    "16421394462c93aa61": {
+      "type": "values-grid",
+      "blocks": {
+        "1642139446ed426cc3-0": {
+          "type": "left_grid",
+          "settings": {
+            "text_top": "<p><strong>Impeccable ﻿yarn quality<\/strong><\/p><p>(warm, soft, resistant,<br\/>does not pilling)<\/p>",
+            "image_top": "shopify:\/\/shop_images\/luno-yarn-white.png",
+            "image_bottom": "shopify:\/\/shop_images\/luno-certifie-white.png",
+            "text_bottom": "<p><strong>Affordable ﻿price<\/strong><\/p><p>(from manufacturer ﻿to customer)<\/p>"
+          }
+        },
+        "1642139446ed426cc3-1": {
+          "type": "center_image",
+          "settings": {
+          }
+        },
+        "1642139446ed426cc3-2": {
+          "type": "right_grid",
+          "settings": {
+            "text_top": "<p>Pair text with an image to focus on your history.<\/p>",
+            "text_bottom": "<p>Pair text with an image to focus on your history.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1642139446ed426cc3-0",
+        "1642139446ed426cc3-1",
+        "1642139446ed426cc3-2"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
     "image_slider",
-    "16421361221fb7cf81"
+    "16421361221fb7cf81",
+    "16421394462c93aa61"
   ]
 }

@@ -1829,6 +1829,26 @@
         "name": "Multicolonne"
       }
     },
+    "two_columns": {
+      "name": "Deux Colonnes"
+      },
+      "blocks": {
+        "column": {
+          "name": "Colonne",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "text": {
+              "label": "Description"
+            },
+          }
+        }
+      },
+      "presets": {
+        "name": "Deux Colonnes"
+      }
+    },
     "newsletter": {
       "name": "Inscription à la liste de diffusion",
       "settings": {

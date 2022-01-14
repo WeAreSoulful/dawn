@@ -1953,6 +1953,26 @@
         "name": "Multicolumn"
       }
     },
+    "two_columns": {
+      "name": "Two Columns"
+      },
+      "blocks": {
+        "column": {
+          "name": "Column",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "text": {
+              "label": "Description"
+            },
+          }
+        }
+      },
+      "presets": {
+        "name": "Two Columns"
+      }
+    },
     "newsletter": {
       "name": "Email signup",
       "settings": {

@@ -6,7 +6,7 @@
         "image_slider-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/luno-banner-about-1.jpg",
+            "image": "shopify:\/\/shop_images\/luno-banner-about-1_d41d4254-3934-45f2-b26d-91c5c16626a3.jpg",
             "heading": "",
             "heading_size": "small",
             "subheading": "À la naissance de mon bébé ma première envie fut de l’habiller avec la matière la plus douce possible, de l’enrouler dans un cocoon de douceur",
@@ -24,6 +24,7 @@
         "image_slider-1": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/luno-banner-about-2.jpg",
             "heading": "Image slide",
             "heading_size": "medium",
             "subheading": "Tell your brand's story through images",

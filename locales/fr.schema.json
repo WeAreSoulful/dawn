@@ -1830,8 +1830,8 @@
       }
     },
     "two_columns": {
-      "name": "Deux Colonnes"
-      },
+      "name": "Deux Colonnes",
+      "settings": {},
       "blocks": {
         "column": {
           "name": "Colonne",

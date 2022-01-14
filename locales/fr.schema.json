@@ -1832,6 +1832,9 @@
     "values_grid": {
       "name": "Grille de Valeurs",
       "settings": {
+        "title": {
+          "label": "Titre"
+        }
       },
       "blocks": {
         "left_grid": {
@@ -1859,6 +1862,26 @@
       },
       "presets": {
         "name": "Values Grid"
+      }
+    },
+    "page_closer": {
+      "name": "Fermeture de Page",
+      "settings": {},
+      "blocks": {
+        "closer_columm": {
+          "name": "Colonne de Fermeture",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "text": {
+              "label": "Text"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Fermeture de Page",
       }
     },
     "newsletter": {

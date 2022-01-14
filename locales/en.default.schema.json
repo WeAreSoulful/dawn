@@ -1985,6 +1985,9 @@
     "values_grid": {
       "name": "Values Grid",
       "settings": {
+        "title": {
+          "label": "Title"
+        }
       },
       "blocks": {
         "left_grid": {
@@ -2012,6 +2015,26 @@
       },
       "presets": {
         "name": "Values Grid"
+      }
+    },
+    "page_closer": {
+      "name": "Page Closer",
+      "settings": {},
+      "blocks": {
+        "closer_columm": {
+          "name": "Closer Column",
+          "settings": {
+            "image": {
+              "label": "Image"
+            },
+            "text": {
+              "label": "Text"
+            }
+          }
+        }
+      },
+      "presets": {
+        "name": "Page Closer"
       }
     },
     "newsletter": {

@@ -1834,6 +1834,12 @@
       "settings": {
       },
       "blocks": {
+        "left_grid": {
+          "name": "Grille de Gauche"
+        },
+        "right_grid": {
+          "name": "Grille de Droite"
+        },
         "image_box": {
           "name": "Image",
           "settings": {

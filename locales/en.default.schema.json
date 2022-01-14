@@ -1987,6 +1987,12 @@
       "settings": {
       },
       "blocks": {
+        "left_grid": {
+          "name": "Left Grid"
+        },
+        "right_grid": {
+          "name": "Right Grid"
+        },
         "image_box": {
           "name": "Image Box",
           "settings": {

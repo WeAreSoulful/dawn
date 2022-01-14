@@ -1,5 +1,77 @@
 
 <div class="values-grid page-width">
+  {%- for block in section.blocks -%}
+    <div class="grid-box {{ block.type }}">
+      {%- if block.settings.center_image != blank -%}
+        <div class="box center-image">
+          <img
+            srcset="{%- if block.settings.center_image.width >= 275 -%}{{ block.settings.center_image | img_url: '275x' }} 275w,{%- endif -%}
+              {%- if block.settings.center_image.width >= 550 -%}{{ block.settings.center_image | img_url: '550x' }} 550w,{%- endif -%}
+              {%- if block.settings.center_image.width >= 710 -%}{{ block.settings.center_image | img_url: '710x' }} 710w,{%- endif -%}
+              {%- if block.settings.center_image.width >= 1420 -%}{{ block.settings.center_image | img_url: '1420x' }} 1420w,{%- endif -%}
+              {{ block.settings.center_image | img_url: 'master' }} {{ block.settings.center_image.width }}w"
+            src="{{ block.settings.center_image | img_url: '550x' }}"
+            sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
+              (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
+              calc(100vw - 30px)"
+            alt="{{ block.settings.center_image.alt }}"
+            height="{{ block.settings.center_image.height }}"
+            width="{{ block.settings.center_image.width }}"
+            loading="lazy"
+          >
+        </div>
+      {%- else -%}
+        {%- if block.settings.text_top != blank -%}
+          <div class="box text">
+            <div class="rte">{{ block.settings.text_top }}</div>
+          </div>
+        {%- endif -%}
+        {%- if block.settings.image_top != blank -%}
+          <div class="box image">
+            <img
+              srcset="{%- if block.settings.image_top.width >= 275 -%}{{ block.settings.image_top | img_url: '275x' }} 275w,{%- endif -%}
+                {%- if block.settings.image_top.width >= 550 -%}{{ block.settings.image_top | img_url: '550x' }} 550w,{%- endif -%}
+                {%- if block.settings.image_top.width >= 710 -%}{{ block.settings.image_top | img_url: '710x' }} 710w,{%- endif -%}
+                {%- if block.settings.image_top.width >= 1420 -%}{{ block.settings.image_top | img_url: '1420x' }} 1420w,{%- endif -%}
+                {{ block.settings.image_top | img_url: 'master' }} {{ block.settings.image_top.width }}w"
+              src="{{ block.settings.image_top | img_url: '550x' }}"
+              sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
+                (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
+                calc(100vw - 30px)"
+              alt="{{ block.settings.image_top.alt }}"
+              height="{{ block.settings.image_top.height }}"
+              width="{{ block.settings.image_top.width }}"
+              loading="lazy"
+            >
+          </div>
+        {%- endif -%}
+        {%- if block.settings.text_bottom != blank -%}
+          <div class="box text">
+            <div class="rte">{{ block.settings.text_bottom }}</div>
+          </div>
+        {%- endif -%}
+        {%- if block.settings.image_bottom != blank -%}
+          <div class="box image">
+            <img
+              srcset="{%- if block.settings.image_bottom.width >= 275 -%}{{ block.settings.image_bottom | img_url: '275x' }} 275w,{%- endif -%}
+                {%- if block.settings.image_bottom.width >= 550 -%}{{ block.settings.image_bottom | img_url: '550x' }} 550w,{%- endif -%}
+                {%- if block.settings.image_bottom.width >= 710 -%}{{ block.settings.image_bottom | img_url: '710x' }} 710w,{%- endif -%}
+                {%- if block.settings.image_bottom.width >= 1420 -%}{{ block.settings.image_bottom | img_url: '1420x' }} 1420w,{%- endif -%}
+                {{ block.settings.image_bottom | img_url: 'master' }} {{ block.settings.image_bottom.width }}w"
+              src="{{ block.settings.image_bottom | img_url: '550x' }}"
+              sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
+                (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
+                calc(100vw - 30px)"
+              alt="{{ block.settings.image_bottom.alt }}"
+              height="{{ block.settings.image_bottom.height }}"
+              width="{{ block.settings.image_bottom.width }}"
+              loading="lazy"
+            >
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+  {%- endfor -%}
 </div>
 
 {% schema %}
@@ -7,7 +79,14 @@
   "name": "t:sections.values_grid.name",
   "class": "section",
   "tag": "section",
-  "settings": [],
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Our values",
+      "label": "t:sections.values_grid.settings.title.label"
+    }
+  ],
   "blocks": [
     {
       "type": "left_grid",

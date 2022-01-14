@@ -1866,7 +1866,8 @@
     },
     "page_closer": {
       "name": "Fermeture de Page",
-      "settings": {},
+      "settings": {
+      },
       "blocks": {
         "closer_columm": {
           "name": "Colonne de Fermeture",

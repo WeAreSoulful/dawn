@@ -127,12 +127,45 @@
         "1642139446ed426cc3-2"
       ],
       "settings": {
+        "title": "Our values"
+      }
+    },
+    "16421435123fff9307": {
+      "type": "closer",
+      "blocks": {
+        "16421435125340b699-0": {
+          "type": "closer_column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/luno-yarn-white.png",
+            "text": "<p>Exceptional yarn<\/p>"
+          }
+        },
+        "16421435125340b699-1": {
+          "type": "closer_column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your history.<\/p>"
+          }
+        },
+        "16421435125340b699-2": {
+          "type": "closer_column",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your history.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16421435125340b699-0",
+        "16421435125340b699-1",
+        "16421435125340b699-2"
+      ],
+      "settings": {
       }
     }
   },
   "order": [
     "image_slider",
     "16421361221fb7cf81",
-    "16421394462c93aa61"
+    "16421394462c93aa61",
+    "16421435123fff9307"
   ]
 }

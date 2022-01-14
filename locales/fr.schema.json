@@ -100,37 +100,77 @@
           "label": "Twitter",
           "info": "https://twitter.com/shopify"
         },
+        "social_twitter_link": {
+          "label": "Twitter",
+          "info": "https:\/\/twitter.com\/shopify"
+        },
+        "social_twitter_icon": {
+          "label": "Twitter Icon",
+          "info": ""
+        },
         "social_facebook_link": {
           "label": "Facebook",
-          "info": "https://facebook.com/shopify"
+          "info": "https:\/\/facebook.com\/shopify"
+        },
+        "social_facebook_icon": {
+          "label": "Facebook Icon",
+          "info": ""
         },
         "social_pinterest_link": {
           "label": "Pinterest",
-          "info": "https://pinterest.com/shopify"
+          "info": "https:\/\/pinterest.com\/shopify"
+        },
+        "social_pinterest_icon": {
+          "label": "Pinterest Icon",
+          "info": ""
         },
         "social_instagram_link": {
           "label": "Instagram",
-          "info": "http://instagram.com/shopify"
+          "info": "http:\/\/instagram.com\/shopify"
+        },
+        "social_instagram_icon": {
+          "label": "Instagram Icon",
+          "info": ""
         },
         "social_tiktok_link": {
           "label": "TikTok",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/tiktok.com\/@shopify"
+        },
+        "social_tiktok_icon": {
+          "label": "TikTok Icon",
+          "info": ""
         },
         "social_tumblr_link": {
           "label": "Tumblr",
-          "info": "http://shopify.tumblr.com"
+          "info": "https:\/\/shopify.tumblr.com"
+        },
+        "social_tumblr_icon": {
+          "label": "Tumblr Icon",
+          "info": ""
         },
         "social_snapchat_link": {
           "label": "Snapchat",
-          "info": "https://www.snapchat.com/add/shopify"
+          "info": "https:\/\/www.snapchat.com\/add\/shopify"
+        },
+        "social_snapchat_icon": {
+          "label": "Snapchat Icon",
+          "info": ""
         },
         "social_youtube_link": {
           "label": "YouTube",
-          "info": "https://www.youtube.com/shopify"
+          "info": "https:\/\/www.youtube.com\/shopify"
+        },
+        "social_youtube_icon": {
+          "label": "YouTube Icon",
+          "info": ""
         },
         "social_vimeo_link": {
           "label": "Vimeo",
-          "info": "https://vimeo.com/shopify"
+          "info": "https:\/\/vimeo.com\/shopify"
+        },
+        "social_vimeo_icon": {
+          "label": "Vimeo Icon",
+          "info": ""
         },
         "header": {
           "content": "Comptes sociaux"

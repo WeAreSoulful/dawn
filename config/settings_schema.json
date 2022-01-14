@@ -4,8 +4,8 @@
     "theme_name": "Dawn",
     "theme_version": "2.5.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes/os20/themes-by-shopify/dawn",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes\/os20\/themes-by-shopify\/dawn",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -151,7 +151,7 @@
         ],
         "default": "1600",
         "label": "t:settings_schema.layout.settings.page_width.label"
-        },
+      },
       {
         "type": "range",
         "id": "spacing_sections",
@@ -189,12 +189,12 @@
         "default": 8,
         "unit": "px",
         "label": "t:settings_schema.layout.settings.spacing_grid_vertical.label"
-      }     
+      }
     ]
   },
   {
     "name": "t:settings_schema.buttons.name",
-    "settings": [     
+    "settings": [
       {
         "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
@@ -218,7 +218,7 @@
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
         "default": 100
-      },      
+      },
       {
         "type": "range",
         "id": "buttons_radius",
@@ -277,7 +277,7 @@
   },
   {
     "name": "t:settings_schema.variant_pills.name",
-    "settings": [     
+    "settings": [
       {
         "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
@@ -301,7 +301,7 @@
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
         "default": 55
-      },      
+      },
       {
         "type": "range",
         "id": "variant_pills_radius",
@@ -360,7 +360,7 @@
   },
   {
     "name": "t:settings_schema.inputs.name",
-    "settings": [     
+    "settings": [
       {
         "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
@@ -384,7 +384,7 @@
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
         "default": 55
-      },     
+      },
       {
         "type": "range",
         "id": "inputs_radius",
@@ -600,7 +600,7 @@
   },
   {
     "name": "t:settings_schema.content_containers.name",
-    "settings": [    
+    "settings": [
       {
         "type": "header",
         "content": "t:settings_schema.global.settings.header__border.content"
@@ -624,7 +624,7 @@
         "unit": "%",
         "label": "t:settings_schema.global.settings.opacity.label",
         "default": 0
-      },      
+      },
       {
         "type": "range",
         "id": "text_boxes_radius",
@@ -1042,10 +1042,22 @@
         "info": "t:settings_schema.social-media.settings.social_twitter_link.info"
       },
       {
+        "type": "image_picker",
+        "id": "social_twitter_icon",
+        "label": "t:settings_schema.social-media.settings.social_twitter_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_twitter_icon.info"
+      },
+      {
         "type": "text",
         "id": "social_facebook_link",
         "label": "t:settings_schema.social-media.settings.social_facebook_link.label",
         "info": "t:settings_schema.social-media.settings.social_facebook_link.info"
+      },
+      {
+        "type": "image_picker",
+        "id": "social_facebook_icon",
+        "label": "t:settings_schema.social-media.settings.social_facebook_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_facebook_icon.info"
       },
       {
         "type": "text",
@@ -1054,10 +1066,22 @@
         "info": "t:settings_schema.social-media.settings.social_pinterest_link.info"
       },
       {
+        "type": "image_picker",
+        "id": "social_pinterest_icon",
+        "label": "t:settings_schema.social-media.settings.social_pinterest_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_pinterest_icon.info"
+      },
+      {
         "type": "text",
         "id": "social_instagram_link",
         "label": "t:settings_schema.social-media.settings.social_instagram_link.label",
         "info": "t:settings_schema.social-media.settings.social_instagram_link.info"
+      },
+      {
+        "type": "image_picker",
+        "id": "social_instagram_icon",
+        "label": "t:settings_schema.social-media.settings.social_instagram_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_instagram_icon.info"
       },
       {
         "type": "text",
@@ -1066,10 +1090,22 @@
         "info": "t:settings_schema.social-media.settings.social_tiktok_link.info"
       },
       {
+        "type": "image_picker",
+        "id": "social_tiktok_icon",
+        "label": "t:settings_schema.social-media.settings.social_tiktok_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_tiktok_icon.info"
+      },
+      {
         "type": "text",
         "id": "social_tumblr_link",
         "label": "t:settings_schema.social-media.settings.social_tumblr_link.label",
         "info": "t:settings_schema.social-media.settings.social_tumblr_link.info"
+      },
+      {
+        "type": "image_picker",
+        "id": "social_tumblr_icon",
+        "label": "t:settings_schema.social-media.settings.social_tumblr_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_tumblr_icon.info"
       },
       {
         "type": "text",
@@ -1078,16 +1114,34 @@
         "info": "t:settings_schema.social-media.settings.social_snapchat_link.info"
       },
       {
+        "type": "image_picker",
+        "id": "social_snapchat_icon",
+        "label": "t:settings_schema.social-media.settings.social_snapchat_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_snapchat_icon.info"
+      },
+      {
         "type": "text",
         "id": "social_youtube_link",
         "label": "t:settings_schema.social-media.settings.social_youtube_link.label",
         "info": "t:settings_schema.social-media.settings.social_youtube_link.info"
       },
       {
+        "type": "image_picker",
+        "id": "social_youtube_icon",
+        "label": "t:settings_schema.social-media.settings.social_youtube_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_youtube_icon.info"
+      },
+      {
         "type": "text",
         "id": "social_vimeo_link",
         "label": "t:settings_schema.social-media.settings.social_vimeo_link.label",
         "info": "t:settings_schema.social-media.settings.social_vimeo_link.info"
+      },
+      {
+        "type": "image_picker",
+        "id": "social_vimeo_icon",
+        "label": "t:settings_schema.social-media.settings.social_vimeo_icon.label",
+        "info": "t:settings_schema.social-media.settings.social_vimeo_icon.info"
       }
     ]
   },

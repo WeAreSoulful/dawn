@@ -55,7 +55,7 @@
       }
     },
     "two_columns1": {
-      "type": "twocolumns",
+      "type": "two-columns",
       "blocks": {
         "column1": {
           "type": "column",

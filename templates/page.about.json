@@ -143,13 +143,15 @@
         "16421435125340b699-1": {
           "type": "closer_column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your history.<\/p>"
+            "image": "shopify:\/\/shop_images\/luno-second-hand-white.png",
+            "text": "<p>Recycled and recyclable packaging<\/p>"
           }
         },
         "16421435125340b699-2": {
           "type": "closer_column",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your history.<\/p>"
+            "image": "shopify:\/\/shop_images\/luno-cachemire-white.png",
+            "text": "<p>Standard Certified Good Cashmere<\/p>"
           }
         }
       },

@@ -51,9 +51,11 @@ header-drawer {
         &:hover span {
             text-decoration: none;
         }
+        span {
+            padding: 10px 0;
+        }
     }
     &__active-menu-item {
-        padding: 10px 0;
         text-decoration: none;
         border-bottom: 2px solid $dark;
 

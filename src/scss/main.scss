@@ -74,7 +74,7 @@ a, .link, .customer a {
     }
 }
 
-/* Dawn Cleanup */
+/* Dawn Overrides */
 .shopify-section {
     overflow-x: hidden;
 }
@@ -87,6 +87,10 @@ a, .link, .customer a {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+
+.slideshow--placeholder.banner--adapt_image {
+    height: auto !important;
 }
 
 /* Helper Classes */
